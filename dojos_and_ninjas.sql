@@ -1,0 +1,19 @@
+-- INSERT INTO dojos (name, created_at, updated_at)  
+-- VALUES ('Adam', NOW(), NOW()), ('Mike', NOW(), NOW()), ('Bruce', NOW(), NOW());
+-- SELECT * FROM dojos;
+-- DELETE FROM dojos WHERE id < 10
+-- INSERT INTO dojos (name, created_at, updated_at)
+-- VALUES ('Adam', NOW(), NOW()), ('Mike', NOW(), NOW()), ('Bruce', NOW(), NOW());
+-- INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+-- VALUES ('bob', 'builder', '10', '10'), ('jackie', 'chain', '50', '12'), ('hitmon', 'lee', '42', '11');
+-- SELECT * FROM ninjas
+-- INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+-- VALUES ('bob', 'builder', '10', '11'), ('jackie', 'chain', '50', '11'), ('hitmon', 'lee', '42', '12');
+-- INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+-- VALUES ('bob', 'builder', '10', '12'), ('jackie', 'chain', '50', '10'), ('hitmon', 'lee', '42', '10');
+-- SELECT * FROM ninjas WHERE dojo_id = 10
+-- SELECT * FROM ninjas WHERE dojo_id = 11;
+-- SELECT * FROM ninjas WHERE dojo_id = 12;
+-- SELECT dojos.name, first_name from ninjas
+-- JOIN dojos ON dojos.id = ninjas.dojo_id
+-- WHERE ninjas.id = 9
